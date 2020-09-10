@@ -1,0 +1,84 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+    background-color: #001f3f;
+}
+
+header {
+    padding: 50px;
+    background-color: #FFF;
+}
+
+.heading {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: #111;
+}
+
+.row {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#ges {
+    font-size: 75px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#ges:hover,
+#ges:focus {
+    color: #FFDC00;
+    transition: 0.3s ease-in-out;
+}
+
+.note {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+table {
+    width: 30% !important;
+    text-align: center;
+    margin: auto;
+    color: #FFF !important;
+}
+
+.user-score,
+.pc-score {
+    font-size: 130%;
+    font-weight: 800;
+}
+
+.text {
+    text-align: center;
+    direction: rtl;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 20px;
+    }
+
+    #ges {
+        font-size: 35px;
+    }
+
+    .note {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}

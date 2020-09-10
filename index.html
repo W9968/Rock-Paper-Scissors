@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>rock paper scissors</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="heading">rock paper scissors</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="rock">
+                    <i id="ges" class="fas fa-hand-rock"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="paper">
+                    <i id="ges" class="fas fa-hand-paper" value="paper"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="scissors">
+                    <i id="ges" class="fas fa-hand-scissors"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="note">
+        <p>remember: <b>“Rock breaks scissors, scissors cuts paper, paper covers rock.”</b></p>
+    </div>
+
+    <div class="container-fluid">
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col-6">Player</th>
+                    <th scope="col-6">Computer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user-score">0</td>
+                    <td class="pc-score">0</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="text"></p>
+    </div>
+
+</body>
+
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/45d8e012cb.js"></script>
+
+</html>
